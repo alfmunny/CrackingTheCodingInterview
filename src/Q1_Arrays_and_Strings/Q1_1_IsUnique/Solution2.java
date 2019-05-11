@@ -7,10 +7,9 @@ public class Solution2 {
 
     public static boolean isUniqueChars(String str) {
         int checker = 0;
-
         for ( int i = 0; i < str.length(); i++) {
-            int val = str.charAt(i);
-            if ( (checker & (1 << val)) > 0 ) return false;
+            int val = str.charAt(i) - 'a';
+            if ( (checker & (1 << val)) > 0 ) return false; // move a bit in order to record the all characters including 'a'
             checker |= 1 << val;
         }
         return true;
