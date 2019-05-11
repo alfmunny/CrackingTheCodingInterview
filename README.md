@@ -1,5 +1,4 @@
 # Cracking the Coding Interview
-Test
 
 Source Code:
 
