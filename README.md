@@ -23,3 +23,48 @@ Source Code:
 | Remove Dups       | Hash to note duplicates | [Java](src/Q2_Linked_Lists/Q2_1_RemoveDups) |
 | Return Kth to Last| Two pointers with K distance| [Java](src/Q2_Linked_Lists/Q2_2_ReturnKthToLast) |
 | Delete Middle Node| copy next node to current| [Java](src/Q2_Linked_Lists/Q2_3_DeleteMiddleNode) ||
+
+
+## Stacks and Queues
+
+## Trees and Graphs
+
+## Bit Manipulation
+
+## Math and Logic Puzzles
+
+## Object-Oriented Design
+
+## Recursion and Dynamic Programming
+
+## System Design and Scalability
+
+## Sorting and Searching
+
+## Testing
+
+## C and C++
+
+## Java
+
+## Database
+
+## Threads and Locks
+
+## Advances Topics
+
+### Useful Math
+
+### Topological Sort
+
+### Dijkstra's Algorithm
+
+### Hash Table Collision Resolution
+
+### Rabin-Karp Substring Search
+
+### AVL Trees
+
+### Red-Black Trees
+
+### MapReduce
