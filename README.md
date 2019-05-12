@@ -22,3 +22,4 @@ Source Code:
 | ---------         | ----------------------| -----|
 | Remove Dups       | Hash to note duplicates | [Java](src/Q2_Linked_Lists/Q2_1_RemoveDups) |
 | Return Kth to Last| Two pointers with K distance| [Java](src/Q2_Linked_Lists/Q2_2_ReturnKthToLast) |
+| Delete Middle Node| copy next node to current| [Java](src/Q2_Linked_Lists/Q2_3_DeleteMiddleNode) ||
