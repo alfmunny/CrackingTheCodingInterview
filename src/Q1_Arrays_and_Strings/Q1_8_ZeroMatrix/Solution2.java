@@ -1,3 +1,5 @@
+package Q1_Arrays_and_Strings.Q1_8_ZeroMatrix;
+
 public class Solution2 {
     public static void zeroMatrix(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) return;

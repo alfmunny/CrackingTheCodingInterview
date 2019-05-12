@@ -1,6 +1,8 @@
+package Q1_Arrays_and_Strings.Q1_9_StringRotation;
+
 public class Solution {
     public static boolean isStringRotation(String a, String b) {
-        if (a.length() != b.length() || a.length == 0) {
+        if (a.length() != b.length() || a.length() == 0) {
             return false;
         }
 

@@ -1,4 +1,4 @@
-package Q2_Linked_Lists.Node;
+package Q2_Linked_Lists;
 
 public class Node {
     public Node next = null;
@@ -8,7 +8,7 @@ public class Node {
         data =  d;
     }
 
-    public appendToTail(int d) {
+    public void appendToTail(int d) {
         Node end = new Node(d);
         Node node = this;
         while(node.next != null) {

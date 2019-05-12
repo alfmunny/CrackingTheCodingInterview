@@ -1,3 +1,5 @@
+package Q1_Arrays_and_Strings.Q1_6_StringCompression;
+
 public class Solution {
     public static String compression(String s) {
         StringBuilder compressed = new StringBuilder();

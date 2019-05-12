@@ -1,3 +1,5 @@
+package Q1_Arrays_and_Strings.Q1_7_RotateMatrix;
+
 public class Solution {
     public static void rotateMatrix(int[][] matrix) {
         int dim = matrix.length;
