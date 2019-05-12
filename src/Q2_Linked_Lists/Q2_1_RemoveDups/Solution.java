@@ -7,20 +7,20 @@ import java.util.HashSet;
 
 public class Solution{
 
-    public static void deleteDups(myNode myNode) {
+    public static void deleteDups(myNode node) {
         HashSet<Integer> set = new HashSet<>();
 
         myNode previous = null;
 
-        while (myNode != null) {
-            if (set.contains(myNode.data)) {
-                previous.next = myNode.next;
+        while (node!= null) {
+            if (set.contains(node.data)) {
+                previous.next = node.next;
             } else {
-                set.add(myNode.data);
-                previous = myNode;
+                set.add(node.data);
+                previous = node;
             }
 
-            myNode = myNode.next;
+            node = node.next;
         }
     }
 
