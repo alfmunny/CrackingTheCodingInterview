@@ -14,5 +14,5 @@ Source Code:
 | String Compression | string concatenation is O(n^2); use StringBuilder | [Java](src/Q1_Arrays_and_Strings/Q1_6_StringCompression) |
 | Rotate Matrix      | careful of offset   | [Java](src/Q1_Arrays_and_Strings/Q1_7_RotateMatrix) |
 | Zero Matrix        | use first row and column to save space | [Java](src/Q1_Arrays_and_Strings/Q1_8_ZeroMatrix) |
-| String Rotation | combine s1 with itself | [Java](src/Q1_Arrays_and_Strings/Q1_8_ZeroMatrix) |
+| String Rotation | combine s1 with itself | [Java](src/Q1_Arrays_and_Strings/Q1_9_StringRotation) |
 
