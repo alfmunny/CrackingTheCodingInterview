@@ -8,7 +8,8 @@ public class Solution {
 
         String newStr = a + a;
 
-        return isSubstring(newStr, b);
+        //return isSubstring(newStr, b);
+        return newStr.contains(b);
     }
 
     public static void main(String[] args) {

@@ -1,24 +1,24 @@
 package Q2_Linked_Lists;
 
-public class Node {
-    public Node next = null;
+public class myNode {
+    public myNode next = null;
     public int data; 
 
-    public Node(int d) {
+    public myNode(int d) {
         data =  d;
     }
 
     public void appendToTail(int d) {
-        Node end = new Node(d);
-        Node node = this;
-        while(node.next != null) {
-           node = node.next; 
+        myNode end = new myNode(d);
+        myNode myNode = this;
+        while(myNode.next != null) {
+           myNode = myNode.next;
         }
-        node.next = end;
+        myNode.next = end;
     }
 
-    public static Node deleteNode(Node head, int d) {
-        Node n = head;
+    public static myNode deleteNode(myNode head, int d) {
+        myNode n = head;
 
         if (n == null) return head;
 
