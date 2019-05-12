@@ -16,3 +16,9 @@ Source Code:
 | Zero Matrix        | use first row and column to save space | [Java](src/Q1_Arrays_and_Strings/Q1_8_ZeroMatrix) |
 | String Rotation | combine s1 with itself | [Java](src/Q1_Arrays_and_Strings/Q1_9_StringRotation) |
 
+## Linked Lists
+
+| Questions         | Hints                 | Code |
+| ---------         | ----------------------| -----|
+| Remove Dups       | Hash to note duplicates | [Java](src/Q2_Linked_Lists/Q2_1_RemoveDups) |
+| Return Kth to Last| Two pointers with K distance| [Java](src/Q2_Linked_Lists/Q2_2_ReturnKthToLast) |
