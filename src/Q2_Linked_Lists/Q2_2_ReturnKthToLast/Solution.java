@@ -26,7 +26,7 @@ public class Solution {
     public static void main(String[] args) {
         int[] a = { 1, 2, 3, 4, 5, 6, 7 };
         myLinkedList list = new myLinkedList(a);
-        int k = 10;
+        int k = 6;
         myNode ret = returnKthToLast(list.head, k);
 
         if(ret != null) System.out.println("The " + k + "th element to the last element is " + ret.data);

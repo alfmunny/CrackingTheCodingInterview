@@ -1,4 +1,5 @@
 package Q2_Linked_Lists;
+import Q2_Linked_Lists.myNode;
 
 public class myLinkedList {
     public myNode head = null;
